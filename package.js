@@ -1,12 +1,12 @@
 Package.describe({
   name: 'classcraft:googleapis',
-  summary: "Wrapper around npm package : googleapis",
-  version: "2.1.7",
+  summary: "Wrapper around npm package : googleapis ^44.0.0",
+  version: "44.0.0",
   git: 'https://github.com/classcraft/meteor-googleapis.git'
 });
 
 Npm.depends( {
-	"googleapis": "2.1.7"
+	"googleapis": "^44.0.0"
 });
 
 Package.onUse(function(api) {
